@@ -1,0 +1,97 @@
+.header {
+
+    // .header__top
+
+    &__top {}
+
+    // .header__inner
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        align-items: center;
+    }
+
+    // .header__logo
+
+    &__logo {}
+
+    // .header__text
+
+    &__text {
+        margin-left: auto;
+        margin-right: 50px;
+
+        span {
+            color: $red;
+        }
+    }
+
+    // .header__phone
+
+    &__phone {}
+
+    // .header__box
+
+    &__box {}
+
+    // .header__btn
+
+    &__btn {
+        padding: 4px;
+        width: 72px;
+        border-radius: 4px;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    // .header__btn-login
+
+    &__btn-login {
+        background-color: $green;
+    }
+
+    // .header__btn-register
+
+    &__btn-register {
+
+        background-color: $red;
+    }
+
+
+    // .header__menu
+
+    &__menu {
+
+        background-color: $bg;
+
+    }
+
+}
+
+
+.basket {}
+
+
+.menu {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+
+    // .menu__list
+
+    &__list {
+        li {
+            display: inline-block;
+        }
+
+        li+li {
+            margin-left: 30px;
+        }
+    }
+}
